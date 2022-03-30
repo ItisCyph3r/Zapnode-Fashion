@@ -119,8 +119,8 @@
       var shopProducts = pp.parentElement;
       var productImg =
         shopProducts.getElementsByClassName("product-img")[0].src;
-      console.log(productImg);
-
+      var productTitle = shopProducts.parentElement;
+      var productName = productTitle.getElementsByTagName("h5")[0].innerText;
       // this is just a product placeholder
       // you should insert an item with the selected product info
       // replace productId, productName, price and url with your real product info
@@ -128,7 +128,7 @@
 
       productId = productId + 1;
       var productAdded =
-        `<li class="cd-cart__product"><div class="cd-cart__image"><a href="#0"><img src="${productImg}" alt="placeholder"></a></div><div class="cd-cart__details"><h3 class="truncate"><a href="#0">Product Name</a></h3><span class="cd-cart__price">$25.99</span><div class="cd-cart__actions"><a href="#0" class="cd-cart__delete-item">Delete</a><div class="cd-cart__quantity"><label for="cd-product-` +
+        `<li class="cd-cart__product"><div class="cd-cart__image"><a href="#0"><img src="${productImg}" alt="placeholder"></a></div><div class="cd-cart__details"><h3 class="truncate"><a href="#0">${productName}</a></h3><span class="cd-cart__price">$25.99</span><div class="cd-cart__actions"><a href="#0" class="cd-cart__delete-item">Delete</a><div class="cd-cart__quantity"><label for="cd-product-` +
         productId +
         '">Qty</label><span class="cd-cart__select"><select class="reset" id="cd-product-' +
         productId +
