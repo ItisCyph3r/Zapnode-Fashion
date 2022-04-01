@@ -124,13 +124,17 @@ body {
 }
 .investment {
   padding-top: 100px;
-  padding-bottom: 10000px;
+  padding-bottom: 100px;
 }
 .invest-img {
   width: 65%;
 }
 .investment-content {
   /* padding: 7%; */
+}
+.investment-holder {
+  vertical-align: middle;
+  margin-top: 100px;
 }
 .investment-content a {
   color: #fff;
