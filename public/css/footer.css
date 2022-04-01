@@ -1,0 +1,70 @@
+a {
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+}
+a,
+a:hover {
+  text-decoration: none !important;
+}
+
+.content {
+  height: 70vh;
+}
+
+.footer-14398 {
+  padding: 05rem 0;
+  background: #05595b;
+  color: #777;
+}
+.footer-14398 .footer-site-logo {
+  color: rgb(255, 255, 255);
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  display: block;
+}
+.footer-14398 h3 {
+  color: rgb(253, 253, 253);
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.footer-14398 .links li {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+.footer-14398 .links li a {
+  color: rgb(124, 124, 124);
+}
+.footer-14398 .links li a:hover {
+  color: rgb(255, 255, 255);
+}
+.footer-14398 .link-menu li {
+  display: inline-block;
+}
+.footer-14398 .link-menu li a {
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  display: inline-block;
+  padding: 10px;
+}
+.footer-14398 .link-menu.nav-left li:first-child a {
+  padding-left: 0;
+}
+.footer-14398 .link-menu.nav-right li:last-child a {
+  padding-left: 0;
+}
+.footer-14398 .social li {
+  display: inline-block;
+}
+.footer-14398 .social li a {
+  display: inline-block;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+}
+.footer-14398 .social li:last-child a {
+  padding-right: 0;
+}
+.footer-14398 .line {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
