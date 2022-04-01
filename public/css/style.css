@@ -66,8 +66,8 @@ body {
   border-radius: 30px;
 }
 .sales {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   /* background-color: #05595b; */
   background: #fff;
   /* background-color: #3a3845; */
@@ -121,4 +121,34 @@ body {
 }
 .container {
   max-width: 960px;
+}
+.investment {
+  padding-top: 100px;
+  padding-bottom: 10000px;
+}
+.invest-img {
+  width: 65%;
+}
+.investment-content {
+  padding: 7%;
+}
+.investment-content a {
+  color: #fff;
+}
+.invest-header {
+  font-size: 3rem;
+  font-family: 'U8';
+  font-weight: 700;
+  color: #0c1825;
+}
+.returns {
+  /* width: 40%; */
+  font-size: 1.25rem;
+  background-color: #05595b;
+  color: white;
+  border-radius: 50px;
+  padding: 10px;
+}
+.subtext {
+  color: #353535;
 }
