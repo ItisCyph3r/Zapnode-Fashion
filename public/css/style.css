@@ -19,7 +19,7 @@ body {
   padding: 0;
 }
 .nav-item {
-  padding: 0 10px 0 10px;
+  /* padding: 0 10px 0 10px; */
 }
 .sizing {
   padding-left: 5%;
@@ -140,7 +140,7 @@ body {
   color: #fff;
 }
 .invest-header {
-  font-size: 3rem;
+  font-size: 2rem;
   font-family: 'U8';
   font-weight: 700;
   color: #0c1825;
@@ -154,5 +154,6 @@ body {
   padding: 10px;
 }
 .subtext {
+  font-size: 1.15rem;
   color: #353535;
 }
