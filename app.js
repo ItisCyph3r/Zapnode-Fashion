@@ -11,8 +11,6 @@ app.set('view engine', 'ejs');
 app.get('/', (req, res) => {
     console.log(__dirname)
     res.render('index', {})
-    res.send()
-    res.end()
 })
 
 app.post('/', (req, res) => {
